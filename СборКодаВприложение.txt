@@ -1,0 +1,31 @@
+windows
+сбор кода main.py в .exe файл
+
+виртуальная среда
+
+python -m venv my_project_env
+my_project_env\Scripts\activate
+
+библиотеки
+
+pip install networkx
+pip install PySyde6
+pip install PyQt6
+pip install sympy
+
+pip install pyinstaller
+
+проверка успешной установки библиотек
+
+python main.py 
+
+сбор кода в приложение
+
+pyinstaller --onefile main.py
+
+
+
+
+
+
+
